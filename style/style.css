@@ -26,12 +26,12 @@ html{
 
 body{
     color: var(--text-color); 
-    background: linear-gradient(-45deg,#87CEFA,#49cfff,#fff,#fff) no-repeat;
+    background: linear-gradient(-45deg,#3903fd,#fff,#fff,#fff) no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 300% 300%;
     height: 100vh;
-    animation: gradient 9s ease alternate infinite;
+    animation: gradient 8s ease alternate infinite;
 
 }
 
@@ -544,25 +544,25 @@ span{
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width: 80%;
+    width: 70%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 65%;
+    width: 40%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 75%;
+    width: 20%;
 }
 
 /*----------*/
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
-    width: 70%;
+    width: 60%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
-    width: 80%;
+    width: 70%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
